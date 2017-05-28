@@ -9,53 +9,63 @@
 	<link rel="stylesheet" type="text/css" href="styles/index.css">
 	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,600,700|Raleway:300,400,600,700" rel="stylesheet">
 	<title>Medhyatrops</title>
-  <script src="https://code.jquery.com/jquery-2.1.3.js"
-  integrity="sha256-goy7ystDD5xbXSf+kwL4eV6zOPJCEBD1FBiCElIm+U8="
-  crossorigin="anonymous"></script>
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="scripts/slider.js"></script>
 
 	
 </head>
 <body>
+<div class="container">
 	<?php include('header.html'); ?>
-	<div class="slider">
-		<section class="awSlider">
-  <div  class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target=".carousel" data-slide-to="0" class="active"></li>
-      <li data-target=".carousel" data-slide-to="1"></li>
-      <li data-target=".carousel" data-slide-to="2"></li>
-      <li data-target=".carousel" data-slide-to="3"></li>
-    </ol>
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <img src="media/images/sliderimage1.png">
-      </div>
-      <div class="item">
-        <img src="media/images/sliderimage2.png">
-      </div>
-      <div class="item">
-        <img src="media/images/sliderimage3.png">
-      </div>
+  <div class="carousel">
+    <div class="carousel-inner">
+        <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+        <div class="carousel-item">
+            <img class="mySlides" src="media/images/sliderimage1.png">
+            <div class="carouselDivCloser">
+              <p></p>
+              <p></p>
+              <div><span></span></div>
+            </div>
+        </div>
+        <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+        <div class="carousel-item">
+            <img class="mySlides" src="media/images/sliderimage2.png">
+            <div class="carouselDivCloser">
+              <p></p>
+              <p></p>
+              <div><span></span></div>
+            </div>
+        </div>
+        <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+        <div class="carousel-item">
+            <img class="mySlides" src="media/images/sliderimage3.png">
+            <div class="carouselDivFurther">
+              <p></p>
+              <p></p>
+              <div><span></span></div>
+            </div>
+        </div>
+        <label for="carousel-3" class="carousel-control prev control-1">‹</label>
+        <label for="carousel-2" class="carousel-control next control-1">›</label>
+        <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+        <label for="carousel-3" class="carousel-control next control-2">›</label>
+        <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+        <label for="carousel-1" class="carousel-control next control-3">›</label>
+        <ol class="carousel-indicators">
+            <li>
+                <label for="carousel-1" class="carousel-bullet">•</label>
+            </li>
+            <li>
+                <label for="carousel-2" class="carousel-bullet">•</label>
+            </li>
+            <li>
+                <label for="carousel-3" class="carousel-bullet">•</label>
+            </li>
+        </ol>
     </div>
-
-    <!-- Controls -->
-    <a class="left carousel-control" href=".carousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    </a>
-    <a class="right carousel-control" href=".carousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    </a>
   </div>
-</section>
 
-
-
-
-	</div>
 
 
 
@@ -73,5 +83,7 @@
 		
 	</div>
 	<!-- <?php include('footer.html'); ?> -->
+
+  </div>
 </body>
 </html>
