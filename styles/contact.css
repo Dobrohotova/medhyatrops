@@ -1,0 +1,174 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 100%;
+}
+
+.contact {
+	width: 100%;
+	height: 380px;
+	margin: 0 auto;
+}
+
+	.contact h1 {
+		font-size: 60px;
+		font-weight: 700;
+		font-family: 'Oswald', sans-serif;
+		margin-top: 100px;
+		text-align: center;
+		color: #343436;
+	}
+
+	.line1 {
+		width: 76px;
+		height: 35px;
+		border-bottom: 4px solid #343436;
+		margin: 0 auto;
+	}
+
+	.line2 {
+		width: 125px;
+		height: 15px;
+		border-bottom: 4px solid #343436;
+		margin: 0 auto;
+	}
+
+	.contact h3 {
+		font-size: 18px;
+		font-weight: 400;
+		font-family: 'Raleway', sans-serif;
+		margin-top: 40px;
+		text-align: center;
+		color: #7e7e7e;
+	}
+
+.content_holder {
+	width: 80%;
+	height: 755px;
+	margin: 0 auto;
+}
+
+	.contact_form {
+		width: 50%;
+		height: 755px;
+		float: left;
+	}
+
+
+	.contact_form p {
+		font-family: 'Raleway', sans-serif;
+		font-size: 24px;
+		font-weight: 600;
+		color: #343436;
+		padding-bottom: 20px;
+	}
+
+	.contact_form input {
+		width: 585px;
+		height: 50px;
+		margin-bottom: 30px;
+		border: 1px solid #565657;
+	}
+
+	.contact_form textarea {
+		width: 585px;
+		height: 200px;
+ 		resize: none;
+		border: 1px solid #565657;
+		margin-bottom: 30px;
+	}
+
+	.contact_form button {
+		width: 200px;
+		height: 65px;
+		border: 2px solid #343436;
+		background-color: white;
+		font-size: 24px;
+		font-weight: 400;
+		font-family: 'Raleway', sans-serif;
+		display: block;
+		position: relative;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+
+		
+
+		.contact_form button:hover {
+			background-color: #343436;
+			color: white;
+			cursor: pointer;
+		}
+
+	.right_info {
+		width: 50%;
+		height: 660px;
+		float: left;
+	}
+
+		.right_info h4 {
+			font-size: 24px;
+			font-weight: 600;
+			font-family: 'Raleway', sans-serif;
+			padding-bottom: 17px;
+			color: #343436;
+		}
+
+		.paragraf {
+			font-size: 18px;
+			font-weight: 400;
+			font-family: 'Raleway', sans-serif;
+			margin-bottom: 87px;
+			color: #58595b;
+		}
+
+			.office {
+				margin-bottom: 30px;
+			}
+
+				.address {
+					padding-right: 7px;
+				}
+
+				.icon_holder {
+					width: 100%;
+					height: 30px;
+					margin-bottom: 6px;
+				}
+
+					.bold {
+						font-size: 18px;
+						font-weight: 600;
+						font-family: 'Raleway', sans-serif;
+						color: #343436;
+					}
+
+					.text_icons {
+						font-size: 18px;
+						font-weight: 600;
+						font-family: 'Raleway', sans-serif;
+						color: #58595b;
+					}
+
+					.icon {
+						margin-right: 15px;
+						/*padding-top: 2px;*/
+						/*margin-bottom: 15px;*/
+					}
+
+		.social {
+			margin-top: 87px;
+			margin-bottom: 22px;
+		}
+
+			.image_holder img {
+				padding-right: 5px;
+			}
+
+		
+	
