@@ -75,6 +75,7 @@
 					<img src="media/images/dreamsprice.png">
 				</div>
 				<div class="products_ind2">
+					<!-- <div class="lines"></div> -->
 					<img src="media/images/hpprice.png">
 				</div>
 				<div class="products_ind3">
