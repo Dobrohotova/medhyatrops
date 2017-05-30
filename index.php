@@ -30,7 +30,9 @@
 							<p class="sp-layer slider_naslovp">Health supplements for mental </p>
 							<p class="sp-layer slider_naslovp p2">alertness and clarity</p>
 							<div class="sp-layer slider_naslovbox">
-								<p class="sp-layer" style="">buy now</p>
+								<a href="products.php">
+									<p class="sp-layer" style="">buy now</p>
+								</a>
 							</div>
 						</div>
 					</div>
@@ -43,7 +45,9 @@
 							<p class="sp-layer slider_naslovp">Health supplements for mental </p>
 							<p class="sp-layer slider_naslovp p2">alertness and clarity</p>
 							<div class="sp-layer slider_naslovbox">
-								<p class="sp-layer" style="">buy now</p>
+								<a href="products.php">
+									<p class="sp-layer" style="">buy now</p>
+								</a>
 							</div>
 						</div>
 					</div>
@@ -56,7 +60,9 @@
 							<p class="sp-layer slider_naslovp">Health supplements for mental </p>
 							<p class="sp-layer slider_naslovp p2">alertness and clarity</p>
 							<div class="sp-layer slider_naslovbox">
-								<p class="sp-layer" style="">buy now</p>
+								<a href="products.php">
+									<p class="sp-layer" style="">buy now</p>
+								</a>
 							</div>
 						</div>
 					</div>
@@ -73,13 +79,23 @@
 			<div class="products_all">
 				<div class="products_ind1">
 					<img src="media/images/dreamsprice.png">
+					<div class="button_more">
+						<a href="products.php"><p>more</p></a>
+					</div>
 				</div>
 				<div class="products_ind2">
-					<!-- <div class="lines"></div> -->
 					<img src="media/images/hpprice.png">
+					<div class="button_more">
+						<a href="products.php"><p>more</p></a>
+					</div>
 				</div>
 				<div class="products_ind3">
 					<img src="media/images/focusprice.png">
+					<a href="products.php">
+						<div class="button_more">
+							<p>more</p>
+						</div>
+					</a>
 				</div>
 			</div>
 		</div>
