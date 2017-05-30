@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.footer {
+	width: 100%;
+	height: 335px;
+	background-color: #323232;
+}
+
+	.footer_content {
+		width: 80%;
+		height: 335px;
+		margin: 0 auto;
+		background-color: grey;
+		padding-top: 40px;
+	}
+
+		.contact_footer {
+			width: 23%;
+			height: 295px;
+			float: left;
+			background-color: white;
+		}
+
+		.products_footer {
+			width: 23%;
+			height: 295px;
+			float: left;
+			background-color: black;
+		}
+
+		.stay_footer {
+			width: 23%;
+			height: 295px;
+			float: left;
+			background-color: red;
+		}
+
+		.newsletter_footer {
+			width: 31%;
+			height: 295px;
+			float: left;
+			background-color: green;
+		}

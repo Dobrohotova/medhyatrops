@@ -4,3 +4,157 @@
 	box-sizing: border-box;
 }
 
+	.slider_naslov1 {
+		font-family: 'Oswald', sans-serif;
+		font-weight: 300;
+		color: #cd464b;
+		font-size: 83px !important;
+		text-transform: uppercase;
+	}
+
+		.yellow {
+			color: #fbb73a;
+		}
+
+		.blue {
+			color: #39a6b9;
+		}
+
+	.slider_naslov2 {
+		font-family: 'Oswald', sans-serif;
+		font-weight: 500;
+		color: #343436;
+		font-size: 72px !important;
+		text-transform: uppercase;
+		margin-top: 90px !important;
+	}
+
+	.slider_naslovp {
+		width: 410px;
+		height: 80px;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 400;
+		color: #343436;
+		font-size: 28px !important;
+		margin-top: 220px !important;
+	}
+
+		.p2 {
+			margin-top: 260px !important;
+		}
+
+	.slider_naslovbox {
+		width: 200px;
+		height: 65px;
+		border: 2px solid #343436;
+		margin-top: 350px !important;
+		transition: all 0.3s;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		-o-transition: all 0.3s;
+	}
+
+		.slider_naslovbox p {
+			font-family: 'Raleway', sans-serif; font-weight: 700;
+			color: #343436; 
+			font-size: 24px !important; 
+			text-transform: uppercase;
+			margin-left: 40px !important;
+			margin-top: 15px !important;
+			transition: all 0.3s;
+		}
+
+		.slider_naslovbox:hover {
+			background-color: #343436; 
+			cursor: pointer;
+		}
+
+		.slider_naslovbox:hover p {
+			color: white; 
+		}
+
+
+.products_container {
+	width: 100%;
+	height: 1225px;
+}
+
+	.products {
+		width: 100%;
+		height: 370px;
+		margin: 0 auto;
+	}
+
+		.products h1 {
+			font-size: 60px;
+			font-weight: 700;
+			font-family: 'Oswald', sans-serif;
+			margin-top: 100px;
+			text-align: center;
+			color: #343436;
+			text-transform: uppercase;
+		}
+
+		.line1 {
+			width: 76px;
+			height: 35px;
+			border-bottom: 4px solid #343436;
+			margin: 0 auto;
+		}
+
+		.line2 {
+			width: 125px;
+			height: 15px;
+			border-bottom: 4px solid #343436;
+			margin: 0 auto;
+		}
+
+		.products h3 {
+			font-size: 18px;
+			font-weight: 400;
+			font-family: 'Raleway', sans-serif;
+			margin-top: 40px;
+			text-align: center;
+			color: #7e7e7e;
+		}
+
+	.products_all {
+		width: 80%;
+		height: 845px;
+		margin: 0 auto;
+		background-color: red;
+	}
+
+		.products_ind1 {
+			width: 33%;
+			height: 845px;
+			float: left;
+			background-color: grey;
+		}
+
+			.products_ind1 img {
+				margin-left: 135px;
+			}
+
+		.products_ind2 {
+			width: 34%;
+			height: 845px;
+			float: left;
+			background-color: black;			
+		}
+
+			.products_ind2 img {
+				margin-left: 135px;
+			}
+
+		.products_ind3 {
+			width: 33%;
+			height: 845px;
+			float: left;
+			background-color: grey;
+		}
+
+			.products_ind3 img {
+				margin-left: 135px;
+			}
+

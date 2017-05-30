@@ -6,9 +6,11 @@
 	<meta name="description" content="Irina Dobrohotova">
 	<meta name="keywords" content="Medhyatrops">
 	<meta name="viewport" content="">
+	<title>Medhyatrops</title>
+	
 	<link rel="stylesheet" type="text/css" href="styles/index.css">
 	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,600,700|Raleway:300,400,600,700" rel="stylesheet">
-	<title>Medhyatrops</title>
+	<link rel="stylesheet" type="text/css" href="styles/header.css">
   <link href="styles/products.css" rel="stylesheet">
 </head>
 <body>
@@ -76,12 +78,6 @@ sweeteners or animal products. Lorem ipsum dolor sit amet, consectetur adipiscin
 			<div class="focus_add"><p class="text">Add to cart</p></div>
 		</div>
 	</div>
-
-
-
-
-
-	<?php include('footer.html'); ?>
 </div>
 </body>
 </html>

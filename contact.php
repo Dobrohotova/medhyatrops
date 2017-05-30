@@ -10,6 +10,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,600,700|Raleway:300,400,600,700" rel="stylesheet">
 	<title>Medhyatrops</title>
   <link href="styles/contact.css" rel="stylesheet">
+  <link href="styles/header.css" rel="stylesheet">
 </head>
 <body>
 <div class="container">
@@ -60,7 +61,6 @@
 			</div>
 		</div>
 	</div>
-	<?php include('footer.html'); ?>
 </div>
 </body>
 </html>
