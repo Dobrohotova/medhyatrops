@@ -189,7 +189,15 @@
 			</div>
 		</div>
 		<div class="testemonials_container">
-			
+			<div class="testemonials">
+				<h1>What they say about us</h1>
+				<div class="line1"></div>
+				<div class="line2"></div>
+				<h3>Read our articles about nutrition products, overall health and advices on ways to improve your workout.</h3>
+			</div>
+			<div class="testemonials_all">
+				
+			</div>
 		</div>
 		<?php include('footer.html'); ?>
 	</div>
