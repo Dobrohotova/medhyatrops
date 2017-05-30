@@ -29,11 +29,11 @@
 							<p class="sp-layer slider_naslov2">your mind</p>
 							<p class="sp-layer slider_naslovp">Health supplements for mental </p>
 							<p class="sp-layer slider_naslovp p2">alertness and clarity</p>
-							<div class="sp-layer slider_naslovbox">
-								<a href="products.php">
+							<a href="products.php">
+								<div class="sp-layer slider_naslovbox">
 									<p class="sp-layer" style="">buy now</p>
-								</a>
-							</div>
+								</div>
+							</a>
 						</div>
 					</div>
 
@@ -44,11 +44,11 @@
 							<p class="sp-layer slider_naslov2">your mind</p>
 							<p class="sp-layer slider_naslovp">Health supplements for mental </p>
 							<p class="sp-layer slider_naslovp p2">alertness and clarity</p>
-							<div class="sp-layer slider_naslovbox">
-								<a href="products.php">
+							<a href="products.php">
+								<div class="sp-layer slider_naslovbox">
 									<p class="sp-layer" style="">buy now</p>
-								</a>
-							</div>
+								</div>
+							</a>
 						</div>
 					</div>
 
@@ -59,11 +59,11 @@
 							<p class="sp-layer slider_naslov2">your mind</p>
 							<p class="sp-layer slider_naslovp">Health supplements for mental </p>
 							<p class="sp-layer slider_naslovp p2">alertness and clarity</p>
-							<div class="sp-layer slider_naslovbox">
-								<a href="products.php">
+							<a href="products.php">
+								<div class="sp-layer slider_naslovbox">
 									<p class="sp-layer" style="">buy now</p>
-								</a>
-							</div>
+								</div>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -99,8 +99,30 @@
 				</div>
 			</div>
 		</div>
-		<div class="benefits">
-			
+		<div class="benefits_container">
+			<div class="benefits">
+				<h1>Benefits</h1>
+				<div class="line1"></div>
+				<div class="line2"></div>
+				<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies, ante quis congue ultrices, tortor tellus dictum elit, eu lobortis massa elit nec enim.</h3>
+			</div>
+			<div class="benefits_all">
+				<div class="benefits_ind">
+					<img src="media/images/benefit1.png">
+					<p class="benefits_h">100% natural</p>
+					<p class="benefits_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et justo viverra, vehicula augue eu, finibus velit. Curabitur et posuere nisi.</p>
+				</div>
+				<div class="benefits_ind">
+					<img src="media/images/benefit2.png">
+					<p class="benefits_h">holistic formulas</p>
+					<p class="benefits_p">Vestibulum feugiat odio ut eros molestie tempor. Quisque accumsan nunc in nisl suscipit laoreet vitae at felis. </p>
+				</div>
+				<div class="benefits_ind">
+					<img src="media/images/benefit3.png">
+					<p class="benefits_h">premium ingredients</p>
+					<p class="benefits_p">Proin odio turpis, pharetra vitae lorem vel, mattis aliquam magna. Curabitur venenatis vestibulum massa in viverra.</p>
+				</div>
+			</div>
 		</div>
 		<div class="articles">
 			
