@@ -15,6 +15,7 @@
 
 	<link href="styles/index.css" rel="stylesheet">
 	<link href="styles/header.css" rel="stylesheet">
+	<link href="styles/footer.css" rel="stylesheet">
 </head>
 <body>
 	<div class="container">

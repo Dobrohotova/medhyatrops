@@ -14,7 +14,7 @@
 		width: 80%;
 		height: 335px;
 		margin: 0 auto;
-		background-color: grey;
+		background-color: #323232;
 		padding-top: 40px;
 	}
 
@@ -22,26 +22,87 @@
 			width: 23%;
 			height: 295px;
 			float: left;
-			background-color: white;
 		}
+
+			.footer_h {
+				font-family: 'Raleway', sans-serif;
+				font-size: 24px;
+				font-weight: 600;
+				color: white;
+				margin-bottom: 5%;
+			}
+
+			.contact_info {
+				width: 240px;
+				font-family: 'Raleway', sans-serif;
+				font-size: 18px;
+				font-weight: 600;
+				color: #d2d2d2;
+				margin-bottom: 3%;
+			}
+
+			.contact_footer img {
+				margin-top: 5%;
+			}
 
 		.products_footer {
 			width: 23%;
 			height: 295px;
 			float: left;
-			background-color: black;
 		}
 
 		.stay_footer {
 			width: 23%;
 			height: 295px;
 			float: left;
-			background-color: red;
 		}
+
+			.social_media {
+				float: left;
+				margin-right: 3%;
+			}
 
 		.newsletter_footer {
 			width: 31%;
 			height: 295px;
 			float: left;
-			background-color: green;
 		}
+
+			.newsletter_footer input {
+				width: 78%;
+				height: 45px;
+				background-color: #636363;
+				border: none;
+			}
+
+				.newsletter_footer input::placeholder {
+					color: #ffffff;
+					padding: 3% 0 3% 3%;
+					font-size: 24px;
+					font-family: 'Raleway', sans-serif;
+					font-weight: 600;
+				}
+
+			.newsletter_footer button {
+				width: 20%;
+				height: 45px;
+				cursor: pointer;
+				color: white;
+				font-size: 20px;
+				font-family: 'Raleway', sans-serif;
+				font-weight: 600;
+				text-transform: uppercase;
+				background-color: #323232;
+				border: 2px solid white;
+				transition: all 0.3s;
+				-webkit-transition: all 0.3s;
+				-moz-transition: all 0.3s;
+				-o-transition: all 0.3s;
+			}
+
+			.newsletter_footer button:hover {
+				background-color: white;
+				color: #343436;
+			}
+
+
