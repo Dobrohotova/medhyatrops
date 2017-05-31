@@ -484,7 +484,8 @@ a {
 
 		
 		.testemonial_img {
-			margin: 1% 45% 2% 45%;
+/*			margin: 1% 45% 2% 45%;*/
+			display: inline-block;
 		}
 
 		.testemonial_ime {

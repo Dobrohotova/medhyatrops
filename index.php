@@ -198,10 +198,20 @@
 			</div>
 			<div class="testemonials_all">
 				<img class="testemonial_sign" src="media/images/navodnici.png">
-				<p class="testemonial_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo eget diam eu hendrerit. Fusce eget euismod enim. Duis interdum posuere nulla, sed lacinia neque rutrum vel. Praesent a tincidunt diam, in lobortis nibh. </p>
+				<p class="testemonial_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo eget diam eu hendrerit. Fusce eget euismod enim. Duis interdum posuere nulla, sed lacinia neque rutrum vel. Praesent a tincidunt diam, in lobortis nibh. 
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
 				<img class="testemonial_img" src="media/images/testemonial1.png">
-				<p class="testemonial_ime">Sarah grey</p>
-				<p class="testemonial_firma">Grey Public Relation</p>
+				<br/>
+				<span>Sarah grey</span>
+				<br/>
+				<span>Grey Public Relation</span>
+				</p>
+				<!-- <p class="testemonial_ime"></p>
+				<p class="testemonial_firma"></p> -->
 			</div>
 		</div>
 		<?php include('footer.html'); ?>
