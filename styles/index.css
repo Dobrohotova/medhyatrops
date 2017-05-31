@@ -135,7 +135,7 @@ a {
 		}
 
 			.products_ind1 img {
-				margin-left: 13%;
+				margin: 0 23% 0 23%;
 			}
 
 		.products_ind2 {
@@ -150,7 +150,7 @@ a {
 			
 
 			.products_ind2 img {
-				margin-left: 13%;
+				margin: 0 23% 0 23%;
 			}
 
 		.products_ind3 {
@@ -160,14 +160,14 @@ a {
 		}
 
 			.products_ind3 img {
-				margin-left: 13%;
+				margin: 0 23% 0 23%;
 			}
 
 	.button_more {
 		width: 200px;
 		height: 65px;
 		border: 2px solid #343436;
-		margin: 70px 25% 0 25%;
+		margin: 70px 30% 0 30%;
 		transition: all 0.3s;
 		-webkit-transition: all 0.3s;
 		-moz-transition: all 0.3s;
@@ -253,7 +253,7 @@ a {
 		}
 
 			.benefits_ind img {
-				margin: 0 38% 0 38%;
+				margin: 0 42% 0 42%;
 			}
 
 				.benefits_h {
@@ -278,7 +278,7 @@ a {
 
 	.articles_container {
 		width: 100%;
-		height: 1225px;
+		height: 1300px;
 	}
 
 		.articles {
@@ -340,13 +340,13 @@ a {
 		}
 
 			.articles_ind img {
-				width: 390px;
-				height: 390px;
+				width: 505px;
+				height: 505px;
 			}
 
 			.articles_ind2 img {
-				width: 390px;
-				height: 390px;
+				width: 505px;
+				height: 505px;
 			}
 
 			.article_h {
@@ -415,7 +415,7 @@ a {
 
 	.testemonials_container {
 		width: 100%;
-		height: 1250px;
+		height: 1330px;
 		background-color: #e5e4e4;
 	}
 
@@ -461,9 +461,46 @@ a {
 
 	.testemonials_all {
 		width: 80%;
-		height: 640px;
+		height: 720px;
 		background-color: white;
 		margin: 0 auto;
 	}
 
 
+		.testemonial_sign {
+			margin: 5% 48% 5% 48%;
+		}
+
+		.testemonial_p {
+			width: 70%;
+			height: 120px;
+			margin: 0 auto;
+			text-align: center;
+			font-size: 24px;
+			font-family: 'Raleway', sans-serif;
+			font-weight: 400;
+			color: #343436;
+		}
+
+		
+		.testemonial_img {
+			margin: 1% 45% 2% 45%;
+		}
+
+		.testemonial_ime {
+			font-family: 'Raleway', sans-serif;
+			text-align: center;
+			font-size: 24px; 
+			color: #343436;
+			font-weight: 400;
+			line-height: 1.5;
+		}
+
+		.testemonial_firma {
+			font-family: 'Raleway', sans-serif;
+			text-align: center;
+			font-size: 18px;
+			color: #717171;
+			font-weight: 400;
+			line-height: 2;
+		}

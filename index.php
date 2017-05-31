@@ -193,10 +193,14 @@
 				<h1>What they say about us</h1>
 				<div class="line1"></div>
 				<div class="line2"></div>
-				<h3>Read our articles about nutrition products, overall health and advices on ways to improve your workout.</h3>
+				<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies, ante quis congue ultrices, tortor tellus dictum elit, eu lobortis massa elit nec enim.</h3>
 			</div>
 			<div class="testemonials_all">
-				
+				<img class="testemonial_sign" src="media/images/navodnici.png">
+				<p class="testemonial_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo eget diam eu hendrerit. Fusce eget euismod enim. Duis interdum posuere nulla, sed lacinia neque rutrum vel. Praesent a tincidunt diam, in lobortis nibh. </p>
+				<img class="testemonial_img" src="media/images/testemonial1.png">
+				<p class="testemonial_ime">Sarah grey</p>
+				<p class="testemonial_firma">Grey Public Relation</p>
 			</div>
 		</div>
 		<?php include('footer.html'); ?>
