@@ -110,7 +110,7 @@
 				<div class="benefits_ind">
 					<img src="media/images/benefit1.png">
 					<p class="benefits_h">100% natural</p>
-					<p class="benefits_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et justo viverra, vehicula augue eu, finibus velit. Curabitur et posuere nisi.</p>
+					<p class="benefits_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et justo viverra, vehicula augue eu, finibus velit. </p>
 				</div>
 				<div class="benefits_ind">
 					<img src="media/images/benefit2.png">
@@ -199,7 +199,7 @@
 				<img class="testemonial_sign" src="media/images/navodnici.png">
 				<p class="testemonial_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo eget diam eu hendrerit. Fusce eget euismod enim. Duis interdum posuere nulla, sed lacinia neque rutrum vel. Praesent a tincidunt diam, in lobortis nibh. 
 				<img class="testemonial_img" src="media/images/testemonial1.png">
-				<span class="testemonial_ime">Sarah grey</span>
+				<span class="testemonial_ime">Sarah Grey</span>
 				<span class="testemonial_firma">Grey Public Relation</span>
 				</p>
 				<!-- <p class="testemonial_ime"></p>
