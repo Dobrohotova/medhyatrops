@@ -9,7 +9,6 @@
 	<meta name="viewport" content="">
 
 	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700|Raleway:300,400,600,700" rel="stylesheet">
-	<link href="styles/font-awesome.min.css" rel="stylesheet">
 	
 	<link rel="stylesheet" href="plugins/slider-pro-master/dist/css/slider-pro.min.css">
 
@@ -199,16 +198,9 @@
 			<div class="testemonials_all">
 				<img class="testemonial_sign" src="media/images/navodnici.png">
 				<p class="testemonial_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo eget diam eu hendrerit. Fusce eget euismod enim. Duis interdum posuere nulla, sed lacinia neque rutrum vel. Praesent a tincidunt diam, in lobortis nibh. 
-				<br/>
-				<br/>
-				<br/>
-				<br/>
-				<br/>
 				<img class="testemonial_img" src="media/images/testemonial1.png">
-				<br/>
-				<span>Sarah grey</span>
-				<br/>
-				<span>Grey Public Relation</span>
+				<span class="testemonial_ime">Sarah grey</span>
+				<span class="testemonial_firma">Grey Public Relation</span>
 				</p>
 				<!-- <p class="testemonial_ime"></p>
 				<p class="testemonial_firma"></p> -->
