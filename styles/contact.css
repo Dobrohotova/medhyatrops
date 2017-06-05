@@ -178,5 +178,10 @@
 				padding-right: 5px;
 			}
 
+			.image_holder img:hover {
+				opacity: .9;
+				cursor: pointer;
+			}
+
 		
 	
