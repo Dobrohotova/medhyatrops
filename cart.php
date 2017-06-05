@@ -11,6 +11,7 @@
 	<title>Medhyatrops</title>
   <link href="styles/cart.css" rel="stylesheet">
   <link href="styles/header.css" rel="stylesheet">
+  <link href="styles/footer.css" rel="stylesheet">
 </head>
 <body>
 <div class="container">
@@ -21,6 +22,10 @@
 		<div class="line2"></div>
 		<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies, ante quis congue ultrices, tortor tellus dictum elit, eu lobortis massa elit nec enim.</h3>
 	</div>
+	<div class="cart_container">
+		
+	</div>
+	<?php include('footer.html') ?>
 </div>
 </body>
 </html>
