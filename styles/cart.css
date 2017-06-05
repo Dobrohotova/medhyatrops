@@ -55,13 +55,15 @@
 	.table1 {
 		border: 2px solid #58595b;
 		width: 100%;
+		margin-bottom: 100px;
+		border-collapse: collapse;
 	}
 
-		.table1 th, td {
+		.table1 tr,.table1 th, .table td {
 			border-bottom: 2px solid #58595b;
 		}
 
-		.table1 th, td {
+		.table1 th, .table1 td {
 			text-align: center;
 		}
 
@@ -70,6 +72,10 @@
 			font-weight: 700;
 			font-size: 24px;
 			color: #343436;
+		}
+
+		.table1 img {
+			padding: 30px 0 30px 0;
 		}
 
 		.texttable {
@@ -118,25 +124,29 @@
 		font-weight: 700;
 		font-size: 30px;
 		color: #343436;
+		margin-bottom: 30px;
 	}
 
 	.table2 {
+		width: 100%;
 		border: 2px solid #58595b;
-		/*width: 50%;
-		height: 200px;
-		float: right;*/
-		display: block;
+		/*display: block;*/
+		border-collapse: collapse;
+		margin-bottom: 20px;
 	}
 
 	.table2 th {
+			width: 50%;
 			font-family: 'Raleway', sans-serif;
 			font-weight: 700;
 			font-size: 24px;
 			color: #343436;
+			padding: 20px 0 20px 25px;
 		}
 
-	.table2 th, td {
+	.table2 th, .table2 td {
 		border-bottom: 2px solid #58595b;
+		text-align: left;
 	}
 
 	.button {
