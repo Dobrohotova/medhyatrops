@@ -66,3 +66,7 @@
 					.nav a:hover {
 						color: #343436;
 					}
+
+					a.active {
+						color: #343436;
+					}
