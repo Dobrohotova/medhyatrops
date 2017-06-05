@@ -49,6 +49,7 @@ if (isset($_POST['email']) && $_POST['password']) {
 	<title>Medhyatrops</title>
   <link href="styles/login.css" rel="stylesheet">
   <link href="styles/header.css" rel="stylesheet">
+  <link href="styles/footer.css" rel="stylesheet">
 </head>
 <body>
 <div class="container">
@@ -64,6 +65,7 @@ if (isset($_POST['email']) && $_POST['password']) {
 		<input type="password" name="password" class="input">
 		<button type="submit" class="button">log in</button>
 	</form>
+	<?php include('footer.html'); ?>
 </div>
 </body>
 </html>
