@@ -52,6 +52,15 @@
 	margin: 0 auto;
 }
 
+	.form p {
+		font-family: 'Raleway', sans-serif;
+		font-size: 24px;
+		font-weight: 600;
+		color: #343436;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
 	.input {
 		display: block;
 		margin:0 auto 20px auto;
