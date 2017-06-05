@@ -48,7 +48,118 @@
 
 .cart_container {
 	width: 80%;
+	height: 1120px;
 	margin: 0 auto;
 }
 
-	
+	.table1 {
+		border: 2px solid #58595b;
+		width: 100%;
+	}
+
+		.table1 th, td {
+			border-bottom: 2px solid #58595b;
+		}
+
+		.table1 th, td {
+			text-align: center;
+		}
+
+		.table1 th {
+			font-family: 'Raleway', sans-serif;
+			font-weight: 700;
+			font-size: 24px;
+			color: #343436;
+		}
+
+		.texttable {
+			font-family: 'Raleway', sans-serif;
+			font-size: 24px;
+			font-weight: 400;
+			color: #343436;
+		}
+
+		.minus, .plus {
+		  cursor: pointer;
+		  padding: 0 10px;
+		  border: 1px solid #888889;
+		  color: #343436;
+		  height: 45px;
+		  line-height: 40px;
+		  display: inline-block;
+		}
+		.product-cart__price {
+		  font-weight: bold;
+		  text-align: center;
+		  margin-bottom: 15px;
+		  font-family: Arial;
+		}
+		.product-cart__number {
+			margin-top: 10px;
+		  /*margin: 0 auto;
+		  text-align: center;*/
+		}
+		.count {
+		  text-align: center;
+		  margin: 0 -6px;
+		  width: 80px;
+		  height: 45px;
+		  border: 1px solid #888889;
+		}
+
+
+.table2_container {
+	width: 50%;
+	float: right;
+}
+
+	.table2_h {
+		font-family: 'Raleway', sans-serif;
+		font-weight: 700;
+		font-size: 30px;
+		color: #343436;
+	}
+
+	.table2 {
+		border: 2px solid #58595b;
+		/*width: 50%;
+		height: 200px;
+		float: right;*/
+		display: block;
+	}
+
+	.table2 th {
+			font-family: 'Raleway', sans-serif;
+			font-weight: 700;
+			font-size: 24px;
+			color: #343436;
+		}
+
+	.table2 th, td {
+		border-bottom: 2px solid #58595b;
+	}
+
+	.button {
+		display: block;
+		width: 50%;
+		height: 65px;
+		float: right;
+		/*margin: 0 auto 120px auto;*/
+		border: 2px solid #343436;
+		transition: all 0.3s;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		color: #343436;
+		font-size: 24px; 
+		text-transform: uppercase;
+		text-align: center; 
+		font-family: 'Raleway', sans-serif; font-weight: 700;
+		background-color: white;
+	}
+
+	.button:hover {
+			background-color: #343436; 
+			cursor: pointer;
+			color: white;
+		}
