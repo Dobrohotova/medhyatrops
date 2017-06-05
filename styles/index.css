@@ -485,7 +485,7 @@ a {
 		
 		.testemonial_img {
 /*			margin: 1% 45% 2% 45%;*/
-			display: inline-block;
+			display: block;
 			margin: 7% auto 0 auto;
 		}
 

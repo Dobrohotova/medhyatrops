@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 100%;
+}
+
+.cart {
+	width: 80%;
+	height: 380px;
+	margin: 300px auto 0 auto;
+}
+
+	.cart h1 {
+		font-size: 60px;
+		font-weight: 700;
+		font-family: 'Oswald', sans-serif;
+		margin-top: 100px;
+		text-align: center;
+		color: #343436;
+		text-transform: uppercase;
+	}
+
+	.line1 {
+		width: 76px;
+		height: 35px;
+		border-bottom: 4px solid #343436;
+		margin: 0 auto;
+	}
+
+	.line2 {
+		width: 125px;
+		height: 15px;
+		border-bottom: 4px solid #343436;
+		margin: 0 auto;
+	}
+
+	.cart h3 {
+		font-size: 18px;
+		font-weight: 400;
+		font-family: 'Raleway', sans-serif;
+		margin-top: 40px;
+		text-align: center;
+		color: #7e7e7e;
+	}
+

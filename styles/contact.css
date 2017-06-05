@@ -124,12 +124,13 @@
 			font-size: 18px;
 			font-weight: 400;
 			font-family: 'Raleway', sans-serif;
-			margin-bottom: 87px;
+			margin-bottom: 70px;
 			color: #58595b;
+			line-height: 1.7;
 		}
 
 			.office {
-				margin-bottom: 30px;
+				margin-bottom: 20px;
 			}
 
 				.address {
@@ -157,7 +158,7 @@
 					}
 
 					.icon {
-						margin-right: 15px;
+						margin-right: 8px;
 						/*padding-top: 2px;*/
 						/*margin-bottom: 15px;*/
 					}

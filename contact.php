@@ -54,9 +54,9 @@
 				</div>
 			<h4 class="social">Social Media</h4>
 			<div class="image_holder">
-				<img src="media/images/icons/fb.png">
-				<img src="media/images/icons/twitter.png">
-				<img src="media/images/icons/linkedin.png">
+				<a href="https://www.facebook.com/"><img src="media/images/icons/fb.png"></a>
+				<a href="https://twitter.com"><img src="media/images/icons/twitter.png"></a>
+				<a href="https://www.linkedin.com/"><img src="media/images/icons/linkedin.png"></a>
 			</div>
 			</div>
 		</div>

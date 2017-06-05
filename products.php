@@ -12,6 +12,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,600,700|Raleway:300,400,600,700" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="styles/header.css">
   <link href="styles/products.css" rel="stylesheet">
+  <script type="text/javascript" src="scripts/quantity.js"></script>
 </head>
 <body>
 <div class="container">
@@ -45,7 +46,14 @@ sweeteners or animal products. Lorem ipsum dolor sit amet, consectetur adipiscin
 				<p class="be">be <span class="uppercase">RESTFUL</span></p>
 			</div>
 			<p class="text">Select Quantity</p>
-			<input class="input_dreams" type="number" name="">
+			
+			<div class="product-cart__number number">
+			     <span class="minus">&ndash;</span>
+			     <input class="count" type="text" value="1">
+			     <span class="plus">+</span>
+			</div>
+
+
 			<div class="dreams_add"><p class="text">Add to cart</p></div>
 		</div>
 		<div class="right_box">
@@ -59,7 +67,14 @@ sweeteners or animal products. Lorem ipsum dolor sit amet, consectetur adipiscin
 				<p class="boost">+ METABOLISM</p>
 			</div>
 			<p class="text">Select Quantity</p>
-			<input class="input_hp" type="number" name="">
+
+			<div class="product-cart__number number">
+			     <span class="minus">&ndash;</span>
+			     <input class="count" type="text" value="1">
+			     <span class="plus">+</span>
+			</div>
+
+
 			<div class="hp_add"><p class="text">Add to cart</p></div>
 		</div>
 		<div class="right_box">
@@ -74,10 +89,19 @@ sweeteners or animal products. Lorem ipsum dolor sit amet, consectetur adipiscin
 				<p class="be_focus">be <span class="uppercase">ALERT</span></p>
 			</div>
 			<p class="text">Select Quantity</p>
-			<input class="input_focus" type="number" name="">
+			
+			<div class="product-cart__number number">
+			     <span class="minus">&ndash;</span>
+			     <input class="count" type="text" value="1">
+			     <span class="plus">+</span>
+			</div>
+
+
 			<div class="focus_add"><p class="text">Add to cart</p></div>
 		</div>
 	</div>
+
 </div>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 </body>
 </html>
