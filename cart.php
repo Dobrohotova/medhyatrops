@@ -45,7 +45,7 @@ if(!isset($_SESSION['cart'])){
 				<th>Total</th>
 			</tr>
 			<tr>
-				<td class="texttable">&times</td>
+				<td class="texttable x">&times</td>
 				<td><img src="media/images/dreamssmall.png"></td>
 				<td class="texttable">Dreams</td>
 				<td class="texttable">$10</td>
@@ -61,7 +61,7 @@ if(!isset($_SESSION['cart'])){
 				<td class="texttable">$10</td>
 			</tr>
 			<tr>
-				<td class="texttable">&times</td>
+				<td class="texttable x">&times</td>
 				<td><img src="media/images/hpsmall.png"></td>
 				<td class="texttable">HP</td>
 				<td class="texttable">$10</td>
@@ -77,7 +77,7 @@ if(!isset($_SESSION['cart'])){
 				<td class="texttable">$10</td>
 			</tr>
 			<tr>
-				<td class="texttable">&times</td>
+				<td class="texttable x">&times</td>
 				<td><img src="media/images/focussmall.png"></td>
 				<td class="texttable">Focus</td>
 				<td class="texttable">$10</td>

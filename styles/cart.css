@@ -85,6 +85,10 @@
 			color: #343436;
 		}
 
+		.x {
+			padding-left: 20px;
+		}
+
 		.minus, .plus {
 		  cursor: pointer;
 		  padding: 0 10px;
