@@ -68,18 +68,20 @@
 	}
 
 	.contact_form input {
-		width: 585px;
+		width: 90%;
 		height: 50px;
 		margin-bottom: 30px;
 		border: 1px solid #565657;
+		font-size: 24px;
 	}
 
 	.contact_form textarea {
-		width: 585px;
+		width: 90%;
 		height: 200px;
  		resize: none;
 		border: 1px solid #565657;
 		margin-bottom: 30px;
+		font-size: 24px;
 	}
 
 	.contact_form button {
