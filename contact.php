@@ -11,6 +11,7 @@
 	<title>Medhyatrops</title>
   <link href="styles/contact.css" rel="stylesheet">
   <link href="styles/header.css" rel="stylesheet">
+  <link href="styles/footer.css" rel="stylesheet">
 </head>
 <body>
 <div class="container">
@@ -42,7 +43,7 @@
 			<div>
 				<div class="icon_holder">
 					<img class="address icon" src="media/images/icons/address.png">
-					<span class="bold">Address: </span><span class="text_icons">10-123 1/2 Main Street NW Montreal QC Canada</span>
+					<a href="https://www.google.com/maps/place/Montreal,+QC,+Canada/data=!4m2!3m1!1s0x4cc91a541c64b70d:0x654e3138211fefef?sa=X&ved=0ahUKEwjP3NWyyabUAhWGIlAKHbW9CyMQ8gEIfzAL" target="_blank"><span class="bold">Address: </span><span class="text_icons">10-123 1/2 Main Street NW Montreal QC Canada</span></a>
 				</div>
 				<div class="icon_holder">
 					<img class="icon" src="media/images/icons/phone.png">
@@ -54,13 +55,14 @@
 				</div>
 			<h4 class="social">Social Media</h4>
 			<div class="image_holder">
-				<a href="https://www.facebook.com/"><img src="media/images/icons/fb.png"></a>
+				<a href="https://www.facebook.com"><img src="media/images/icons/fb.png"></a>
 				<a href="https://twitter.com"><img src="media/images/icons/twitter.png"></a>
 				<a href="https://www.linkedin.com/"><img src="media/images/icons/linkedin.png"></a>
 			</div>
 			</div>
 		</div>
 	</div>
+	<?php include('footer.html'); ?>
 </div>
 </body>
 </html>

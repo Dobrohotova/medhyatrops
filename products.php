@@ -1,3 +1,16 @@
+<?php 
+
+session_start();
+
+if(!isset($_SESSION['cart'])){
+	$_SESSION['cart'] = array(
+		1 => 0,
+		2 => 0,
+		3 => 0,
+	);
+}
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,7 +25,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,600,700|Raleway:300,400,600,700" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="styles/header.css">
   <link href="styles/products.css" rel="stylesheet">
-  <script type="text/javascript" src="scripts/quantity.js"></script>
+  
 </head>
 <body>
 <div class="container">
@@ -47,14 +60,19 @@ sweeteners or animal products. Lorem ipsum dolor sit amet, consectetur adipiscin
 			</div>
 			<p class="text">Select Quantity</p>
 			
-			<div class="product-cart__number number">
-			     <span class="minus">&ndash;</span>
-			     <input class="count" type="text" value="1">
-			     <span class="plus">+</span>
-			</div>
+			<form action="cart.php" method="post">
+				<input type="hidden" name="product" value="1">
 
+				<div class="product-cart__number number ispin">
+				     <span class="minus">&ndash;</span>
+				     <input class="count" type="text" value="<?=$_SESSION['cart'][1] == 0 ? 1 :  $_SESSION['cart'][1]?>" name="quantity">
+				     <span class="plus">+</span>
+				</div>
 
-			<div class="dreams_add"><p class="text">Add to cart</p></div>
+				<button class="dreams_add text">Add to cart</button>
+			</form>
+
+			<!-- <div class="dreams_add"><p class="text">Add to cart</p></div> -->
 		</div>
 		<div class="right_box">
 			<h2 class="hp_title">HP</h2>
@@ -67,15 +85,21 @@ sweeteners or animal products. Lorem ipsum dolor sit amet, consectetur adipiscin
 				<p class="boost">+ METABOLISM</p>
 			</div>
 			<p class="text">Select Quantity</p>
+			
+			<form action="cart.php" method="post">
+				<input type="hidden" name="product" value="2">
 
-			<div class="product-cart__number number">
-			     <span class="minus">&ndash;</span>
-			     <input class="count" type="text" value="1">
-			     <span class="plus">+</span>
-			</div>
+				<div class="product-cart__number number ispin">
+				     <span class="minus">&ndash;</span>
+				     <input class="count" type="text" value="<?=$_SESSION['cart'][2] == 0 ? 1 :  $_SESSION['cart'][2]?>" name="quantity">
+				     <span class="plus">+</span>
+				</div>
+
+				<button class="hp_add text">Add to cart</button>
+			</form>
 
 
-			<div class="hp_add"><p class="text">Add to cart</p></div>
+			<!-- <div class="hp_add"><p class="text">Add to cart</p></div> -->
 		</div>
 		<div class="right_box">
 			<h2 class="focus_title">Focus</h2>
@@ -90,18 +114,23 @@ sweeteners or animal products. Lorem ipsum dolor sit amet, consectetur adipiscin
 			</div>
 			<p class="text">Select Quantity</p>
 			
-			<div class="product-cart__number number">
-			     <span class="minus">&ndash;</span>
-			     <input class="count" type="text" value="1">
-			     <span class="plus">+</span>
-			</div>
+			<form action="cart.php" method="post">
+				<input type="hidden" name="product" value="3">
+				
+				<div class="product-cart__number number ispin">
+				     <span class="minus">&ndash;</span>
+				     <input class="count" type="text" value="<?=$_SESSION['cart'][3] == 0 ? 1 :  $_SESSION['cart'][3]?>" name="quantity">
+				     <span class="plus">+</span>
+				</div>
 
-
-			<div class="focus_add"><p class="text">Add to cart</p></div>
+				<button class="focus_add text">Add to cart</button>
+			</form>
+			<!-- <div class="focus_add"><p class="text">Add to cart</p></div> -->
 		</div>
 	</div>
 
 </div>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/quantity.js"></script>
 </body>
 </html>

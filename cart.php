@@ -1,3 +1,15 @@
+<?php 
+session_start();
+
+if(!isset($_SESSION['cart'])){
+	$_SESSION['cart'] = array(
+		1 => 0,
+		2 => 0,
+		3 => 0,
+	);
+}
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,7 +35,17 @@
 		<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies, ante quis congue ultrices, tortor tellus dictum elit, eu lobortis massa elit nec enim.</h3>
 	</div>
 	<div class="cart_container">
-		
+		<?php 
+
+		// print_r($_POST);
+
+		if(isset($_POST['product'])){
+			$_SESSION['cart'][$_POST['product']] = $_POST['quantity'];
+		}
+
+		print_r($_SESSION['cart']);
+
+		?>
 	</div>
 	<?php include('footer.html') ?>
 </div>
