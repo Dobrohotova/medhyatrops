@@ -26,7 +26,7 @@
 	<div class="articles_all">
 		<div class="left">
 			<div class="article_holder">
-				<img src="media/images/articleinside1.png">
+				<img src="media/images/articleinside3.png">
 				<h2 class="article_h">Food health benefits</h2>
 				<div class="article_small">
 						<img src="media/images/icons/article.png">

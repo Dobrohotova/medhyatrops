@@ -144,7 +144,7 @@
 						<span>18 April 2017</span>						
 					</div>
 					<p class="article_lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut quis eum, dolore laboriosam quidem inventore, repudiandae.</p>
-					<a href="articles.php">
+					<a href="article1.php">
 						<div class="article_button">
 							<p>read more</p>
 						</div>
@@ -162,7 +162,7 @@
 						<span>12 December 2016</span>
 					</div>
 					<p class="article_lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, esse accusantium earum molestias. </p>
-					<a href="articles.php">
+					<a href="article2.php">
 						<div class="article_button">
 							<p>read more</p>
 						</div>
@@ -180,7 +180,7 @@
 						<span>8 June 2017</span>
 					</div>
 					<p class="article_lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut quis eum, dolore laboriosam quidem inventore, repudiandae.</p>
-					<a href="articles.php">
+					<a href="article3.php">
 						<div class="article_button">
 							<p>read more</p>
 						</div>

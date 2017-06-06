@@ -11,6 +11,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,600,700|Raleway:300,400,600,700" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="styles/header.css">
   	<link href="styles/articles.css" rel="stylesheet">
+  	<link href="styles/header.css" rel="stylesheet">
+  	<link href="styles/footer.css" rel="stylesheet">
 </head>
 <body>
 <div class="container">
@@ -85,6 +87,7 @@
 			<p class="right_category">Sport</p>
 		</div>
 	</div>
+	<?php include('footer.html'); ?>
 </div>
 </body>
 </html>
