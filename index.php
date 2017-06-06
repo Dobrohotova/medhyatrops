@@ -214,7 +214,7 @@
 		jQuery(document).ready(function($){
 			$('#my-slider').sliderPro({
 				width: '100%',
-				height: 840,
+				height: 900,
 				arrows: true,
 				buttons: false,
 				waitForLayers: false,
