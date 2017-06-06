@@ -7,7 +7,18 @@ if(!isset($_SESSION['cart'])){
 		2 => 0,
 		3 => 0,
 	);
+
 }
+
+if(isset($_POST['product'])){
+	$_SESSION['cart'][$_POST['product']] = $_POST['quantity'];
+}
+
+$images = array(
+	1 => 'dreamssmall.png',
+	2 => 'hpsmall.png',
+	3 => 'focussmall.png'
+);
 
 ?>
 <!DOCTYPE html>
@@ -44,9 +55,13 @@ if(!isset($_SESSION['cart'])){
 				<th>Quantity</th>
 				<th>Total</th>
 			</tr>
+			<?php 
+				foreach($_SESSION['cart'] as $k => $p){ 
+					if($p != 0){
+			?>
 			<tr>
 				<td class="texttable x">&times</td>
-				<td><img src="media/images/dreamssmall.png"></td>
+				<td><img src="media/images/<?=$images[$k];?>"></td>
 				<td class="texttable">Dreams</td>
 				<td class="texttable">$10</td>
 				<td><form action="cart.php" method="post">
@@ -54,78 +69,61 @@ if(!isset($_SESSION['cart'])){
 
 				<div class="product-cart__number number ispin">
 				     <span class="minus">&ndash;</span>
-				     <input class="count" type="text" value="<?=$_SESSION['cart'][1] == 0 ? 1 :  $_SESSION['cart'][1]?>" name="quantity">
+				     <input class="count" type="text" value="<?=$_SESSION['cart'][$k] == 0 ? 1 :  $_SESSION['cart'][$k]?>" name="quantity">
 				     <span class="plus">+</span>
 				</div>
 			</form></td>
-				<td class="texttable">$10</td>
+				<td class="texttable">$<?=$_SESSION['cart'][$k] == 0 ? 10 : $_SESSION['cart'][$k] * 10?></td>
 			</tr>
-			<tr>
-				<td class="texttable x">&times</td>
-				<td><img src="media/images/hpsmall.png"></td>
-				<td class="texttable">HP</td>
-				<td class="texttable">$10</td>
-				<td><form action="cart.php" method="post">
-				<input type="hidden" name="product" value="1">
-
-				<div class="product-cart__number number ispin">
-				     <span class="minus">&ndash;</span>
-				     <input class="count" type="text" value="<?=$_SESSION['cart'][1] == 0 ? 1 :  $_SESSION['cart'][1]?>" name="quantity">
-				     <span class="plus">+</span>
-				</div>
-			</form></td>
-				<td class="texttable">$10</td>
-			</tr>
-			<tr>
-				<td class="texttable x">&times</td>
-				<td><img src="media/images/focussmall.png"></td>
-				<td class="texttable">Focus</td>
-				<td class="texttable">$10</td>
-				<td><form action="cart.php" method="post">
-				<input type="hidden" name="product" value="1">
-
-				<div class="product-cart__number number ispin">
-				     <span class="minus">&ndash;</span>
-				     <input class="count" type="text" value="<?=$_SESSION['cart'][1] == 0 ? 1 :  $_SESSION['cart'][1]?>" name="quantity">
-				     <span class="plus">+</span>
-				</div>
-			</form></td>
-				<td class="texttable">$10</td>
-			</tr>
+			<?php 
+				}
+			} 
+			?>
 		</table>
 		<div class="table2_container">
 			<p class="table2_h">Cart Totals</p>
 			<table class="table2">
 				<tr>
 					<th>Subtotal</th>
-					<td class="texttable">$10</td>
+					<td class="texttable">
+						$<?php
+							$subtotal = 0;
+							foreach($_SESSION['cart'] as $p){
+								$subtotal += $p;
+							}
+							echo $subtotal * 10;
+						?>
+					</td>
 				</tr>
 				<tr>
 					<th>Shipping</th>
-					<td class="texttable"></td>
+					<td class="texttable">$15</td>
 				</tr>
 				<tr>
 					<th>Total</th>
-					<td class="texttable">$10</td>
+					<td class="texttable">$<?=$subtotal*10+15?></td>
 				</tr>
 			</table>
 			<button type="submit" class="button">Proceed to Checkout</button>
 		</div>
-		<?php 
-
-		// print_r($_POST);
-
-		if(isset($_POST['product'])){
-			$_SESSION['cart'][$_POST['product']] = $_POST['quantity'];
-		}
-
-		print_r($_SESSION['cart']);
-
-		?>
 	</div>
 	<?php include('footer.html') ?>
 </div>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<script type="text/javascript" src="scripts/quantity.js"></script>
+	<script type="text/javascript" src="scripts/quantity.js"></script>
+	<script>
+		var ispins = document.querySelectorAll('.ispin input');
+		// console.log(ispins);
+
+		for(var i = 0; i < ispins.length; i++){
+			ispins[i].addEventListener('keyup', function(e){
+				console.log(this.value);
+			});
+
+			ispins[i].addEventListener('change', function(e){
+				console.log(this.value);
+			});
+		}
+	</script>
 </body>
 </html>
