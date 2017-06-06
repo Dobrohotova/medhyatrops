@@ -33,3 +33,8 @@
 		</nav>
 	</div>
 </div>
+<script>
+	var loc = window.location.pathname.split('/');
+	var url = loc[loc.length -1];
+	document.querySelector('a[href="' + url + '"]').classList.add('active');
+</script>

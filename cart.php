@@ -60,20 +60,22 @@ $images = array(
 					if($p != 0){
 			?>
 			<tr>
-				<td class="texttable x">&times</td>
+				<td class="texttable x remove-row">&times;</td>
 				<td><img src="media/images/<?=$images[$k];?>"></td>
 				<td class="texttable">Dreams</td>
 				<td class="texttable">$10</td>
-				<td><form action="cart.php" method="post">
-				<input type="hidden" name="product" value="1">
+				<td>
+				<form action="cart.php" method="post">
+					<input type="hidden" name="product" value="1">
 
-				<div class="product-cart__number number ispin">
-				     <span class="minus">&ndash;</span>
-				     <input class="count" type="text" value="<?=$_SESSION['cart'][$k] == 0 ? 1 :  $_SESSION['cart'][$k]?>" name="quantity">
-				     <span class="plus">+</span>
-				</div>
-			</form></td>
-				<td class="texttable">$<?=$_SESSION['cart'][$k] == 0 ? 10 : $_SESSION['cart'][$k] * 10?></td>
+					<div class="product-cart__number number ispin">
+					     <span class="minus">&ndash;</span>
+					     <input class="count" type="text" value="<?=$_SESSION['cart'][$k] == 0 ? 1 :  $_SESSION['cart'][$k]?>" name="quantity">
+					     <span class="plus">+</span>
+					</div>
+				</form>
+			</td>
+				<td class="texttable producttotal">$<?=$_SESSION['cart'][$k] == 0 ? 10 : $_SESSION['cart'][$k] * 10?></td>
 			</tr>
 			<?php 
 				}
@@ -85,7 +87,7 @@ $images = array(
 			<table class="table2">
 				<tr>
 					<th>Subtotal</th>
-					<td class="texttable">
+					<td class="texttable subtotal">
 						$<?php
 							$subtotal = 0;
 							foreach($_SESSION['cart'] as $p){
@@ -101,7 +103,7 @@ $images = array(
 				</tr>
 				<tr>
 					<th>Total</th>
-					<td class="texttable">$<?=$subtotal*10+15?></td>
+					<td class="texttable total">$<?=$subtotal*10+15?></td>
 				</tr>
 			</table>
 			<button type="submit" class="button">Proceed to Checkout</button>
@@ -113,17 +115,38 @@ $images = array(
 	<script type="text/javascript" src="scripts/quantity.js"></script>
 	<script>
 		var ispins = document.querySelectorAll('.ispin input');
-		// console.log(ispins);
+
+		var changeInput = function(e){
+			var productTotal = this.parentNode.parentNode.parentNode.parentNode.querySelector('.producttotal');
+			productTotal.innerText = '$' + (this.value * 10);
+			calcSubtotal();
+		}
+
+		var calcSubtotal = function(){
+			var counts = document.querySelectorAll('.count');
+			var subtotal = 0;
+
+			for(var i = 0; i < counts.length; i++){
+				subtotal += parseInt(counts[i].value);
+			}
+
+			document.querySelector('.subtotal').innerText = '$' + (subtotal * 10);
+			document.querySelector('.total').innerText = '$' + (subtotal * 10 + 15);
+		}
 
 		for(var i = 0; i < ispins.length; i++){
-			ispins[i].addEventListener('keyup', function(e){
-				console.log(this.value);
-			});
-
-			ispins[i].addEventListener('change', function(e){
-				console.log(this.value);
-			});
+			ispins[i].addEventListener('keyup', changeInput);
+			ispins[i].addEventListener('change', changeInput);
 		}
+
+		var removeBtns = document.querySelectorAll('.remove-row');
+		
+		for(var i = 0; i < removeBtns.length; i++){
+			removeBtns[i].addEventListener('click', function(){
+				this.parentNode.remove();
+				calcSubtotal();
+			});
+		}		
 	</script>
 </body>
 </html>

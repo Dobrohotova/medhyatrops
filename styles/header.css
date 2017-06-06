@@ -67,6 +67,7 @@
 						color: #343436;
 					}
 
-					a.active {
+					.nav a.active {
 						color: #343436;
+						/*font-weight: bold;*/
 					}
