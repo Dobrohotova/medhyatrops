@@ -35,7 +35,7 @@
 						<span>18 April 2017</span>
 				</div>
 				<p class="article_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur eligendi enim dolorem quos numquam necessitatibus doloremque, eos excepturi itaque ratione consequatur quis veritatis, velit expedita voluptatum nesciunt distinctio suscipit odio!</p>
-				<a href="#.php">
+				<a href="article1.php">
 					<div class="button_more">
 						<p>more</p>
 					</div>
