@@ -87,6 +87,7 @@
 
 		.x {
 			padding-left: 20px;
+			cursor: pointer;
 		}
 
 		.minus, .plus {
