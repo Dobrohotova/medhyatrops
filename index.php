@@ -198,61 +198,56 @@
 				<div class="line2"></div>
 				<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies, ante quis congue ultrices, tortor tellus dictum elit, eu lobortis massa elit nec enim.</h3>
 			</div>
-		<section id="testimonial" class="testemonials_all">
-		  <div class="container-inf2">
-		<div class="btn-bar">
-		  <div id="buttons">
-		    <a class="some" id="textprev" href="#">&lt;</a>
-		    <a class="some" id="textnext" href="#">&gt;</a>
-		  </div>
-		</div>
-		<div id="textslides">
-		  <ul>
-		    <li class="textslide">
-		    	<img class="testemonial_sign" src="media/images/navodnici.png">
-		      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo eget diam eu hendrerit. Fusce eget euismod enim. Duis interdum posuere nulla, sed lacinia neque rutrum vel. Praesent a tincidunt diam, in lobortis nibh. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore impedit molestiae aperiam, consectetur explicabo soluta, excepturi consequuntur eveniet enim!
-		      <p><i class="fa fa-quote-left" aria-hidden="true"></i></p>
-		      <p class="test">
-				<img class="testemonial_img" src="media/images/testemonial1.png">
-		        <span class="testemonial_ime">Sarah Grey</span>
-		        <span class="mini">Grey Public Relation</span>
-		      </p>
-		    </li>
-		    <li class="textslide">
-		    	<img class="testemonial_sign" src="media/images/navodnici.png">
-		      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies, ante quis congue ultrices, tortor tellus dictum elit, eu lobortis massa elit nec enim. In hac habitasse platea dictumst. Vestibulum bibendum rhoncus finibus. Suspendisse pulvinar est posuere purus scelerisque lobortis. Aenean iaculis diam faucibus elit finibus, a egestas diam consequat. 
-		      <p><i class="fa fa-quote-left" aria-hidden="true"></i></p>
-		      <p class="test">
-		      	<img class="testemonial_img" src="media/images/testemonial2.png">
-		        <span class="testemonial_ime">John Smith</span>
-		        <span class="mini">Smith Corporation</span>
-		      </p>
-		    </li>
-		    <li class="textslide">
-		    	<img class="testemonial_sign" src="media/images/navodnici.png">
-		      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac dignissim nulla. Sed bibendum maximus nisi, non ultricies sapien pretium non. Sed aliquet lacus sit amet massa ullamcorper, vel rhoncus erat consectetur. In iaculis porta hendrerit. Etiam in facilisis mauris. Sed convallis pretium augue sit amet maximus. Nunc feugiat suscipit dui eget facilisis. Nulla nec odio convallis, vehicula est id, scelerisque tortor.
-		      <p><i class="fa fa-quote-left" aria-hidden="true"></i></p>
-		      <p class="test">
-		      	<img class="testemonial_img" src="media/images/testemonial3.png">
-		        <span class="testemonial_ime">Daniel Riley</span>
-		        <span class="mini">Riley Corporation</span>
-		      </p>
-		    </li>
-		  </ul>
-		  
-		    </div>
-		  </div>
-		</section>
-			<!-- <div class="testemonials_all">
-				<img class="testemonial_sign" src="media/images/navodnici.png">
-				<p class="testemonial_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo eget diam eu hendrerit. Fusce eget euismod enim. Duis interdum posuere nulla, sed lacinia neque rutrum vel. Praesent a tincidunt diam, in lobortis nibh. 
-				<img class="testemonial_img" src="media/images/testemonial1.png">
-				<span class="testemonial_ime">Sarah Grey</span>
-				<span class="testemonial_firma">Grey Public Relation</span>
-				</p> -->
-				<!-- <p class="testemonial_ime"></p>
-				<p class="testemonial_firma"></p>
-			</div> -->
+			<section id="testimonial" class="testemonials_all">
+				<div class="container-inf2">
+					<div class="btn-bar">
+						<div id="buttons">
+						  	<a class="some" id="textprev" href="#">&lt;</a>
+						  	<a class="some" id="textnext" href="#">&gt;</a>
+						</div>
+					</div>
+					<div id="textslides">
+						<ul>
+							<li class="textslide">
+								<img class="testemonial_sign" src="media/images/navodnici.png">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo eget diam eu hendrerit. Fusce eget euismod enim. Duis interdum posuere nulla, sed lacinia neque rutrum vel. Praesent a tincidunt diam, in lobortis nibh. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore impedit molestiae aperiam, consectetur explicabo soluta, excepturi consequuntur eveniet enim!
+								<p>
+									<i class="fa fa-quote-left" aria-hidden="true"></i>
+								</p>
+								<p class="test">
+									<img class="testemonial_img" src="media/images/testemonial1.png">
+									<span class="testemonial_ime">Sarah Grey</span>
+									<span class="mini">Grey Public Relation</span>
+								</p>
+							</li>
+							<li class="textslide">
+								<img class="testemonial_sign" src="media/images/navodnici.png">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies, ante quis congue ultrices, tortor tellus dictum elit, eu lobortis massa elit nec enim. In hac habitasse platea dictumst. Vestibulum bibendum rhoncus finibus. Suspendisse pulvinar est posuere purus scelerisque lobortis. Aenean iaculis diam faucibus elit finibus, a egestas diam consequat. 
+								<p>
+									<i class="fa fa-quote-left" aria-hidden="true"></i>
+								</p>
+								<p class="test">
+									<img class="testemonial_img" src="media/images/testemonial2.png">
+									<span class="testemonial_ime">John Smith</span>
+									<span class="mini">Smith Corporation</span>
+								</p>
+							</li>
+							<li class="textslide">
+								<img class="testemonial_sign" src="media/images/navodnici.png">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac dignissim nulla. Sed bibendum maximus nisi, non ultricies sapien pretium non. Sed aliquet lacus sit amet massa ullamcorper, vel rhoncus erat consectetur. In iaculis porta hendrerit. Etiam in facilisis mauris. Sed convallis pretium augue sit amet maximus. Nunc feugiat suscipit dui eget facilisis. Nulla nec odio convallis, vehicula est id, scelerisque tortor.
+								<p>
+									<i class="fa fa-quote-left" aria-hidden="true"></i>
+								</p>
+								<p class="test">
+									<img class="testemonial_img" src="media/images/testemonial3.png">
+								<span class="testemonial_ime">Daniel Riley</span>
+								<span class="mini">Riley Corporation</span>
+								</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
 		</div>
 		<?php include('footer.html'); ?>
 	</div>
